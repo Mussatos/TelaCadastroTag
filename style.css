@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family:"Lato", sans-serif;
+}
+
+
+.color-background{background: #121212;}
+
+.color-navigation{background:#363636;}
+
+.p-subtitle-nav{font-size: 12px;}
+
+.conteiner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.New-Category{
+    width: 327px;
+    height: 556px;
+    top: 128px;
+    left: 24px;
+    border-radius: 4px;
+    border: 1px;
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ChooseC{
+    width: 123px;
+    height: 24px;
+    top: 138px;
+    left: 127px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24.08px;
+    color: #FFFFFFDE;
+    position: absolute;
+}
+
+.line{
+    width: 316px;
+    height: 0px;
+    top: 172px;
+    left: 29px;
+    gap: 0px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #979797;
+    position: absolute;
+}
+
+.Add-Category{
+    width: 289px;
+    height: 48px;
+    top: 625px;
+    left: 43px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 4px;
+    position: absolute;
+    background-color: #8687E7;
+    color: #FFFFFFDE;
+    text-align: center;
+}
+
+.Grocery{
+    width: 64px;
+    height: 90px;
+    top: 187px;
+    left: 43px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Bread{
+    width: 64px;
+    height: 64px;
+    top: 187px;
+    left: 43px;
+    border-radius: 4px;
+    background: #CCFF80;
+    margin-bottom: 7px;
+}
+
+#TextGr{
+    width: 50px;
+    height: 21px;
+    top: 256px;
+    left: 50px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+    color: #FFFFFFDE;
+}
+
+.Work{
+    width: 64px;
+    height: 90px;
+    top: 187px;
+    left: 156px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Bolsa{
+    width: 64px;
+    height: 64px;
+    top: 187px;
+    left: 156px;
+    border-radius: 4px;
+    background: #FF9680;
+    margin-bottom: 7px;
+}
+
+#TextWo{
+    width: 35px;
+    height: 21px;
+    top: 256px;
+    left: 171px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+    color: #FFFFFFDE;
+}
+
+.Sport{
+    width: 64px;
+    height: 90px;
+    top: 187px;
+    left: 269px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Peso{
+    width: 64px;
+    height: 64px;
+    top: 187px;
+    left: 269px;
+    border-radius: 4px;
+    background: #80FFFF;
+    margin-bottom: 7px;
+}
+
+#TextSp{
+    width: 34px;
+    height: 21px;
+    top: 256px;
+    left: 284px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+    color: #FFFFFFDE;
+}
+
+.Design{
+    width: 64px;
+    height: 90px;
+    top: 293px;
+    left: 43px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Ps4{
+    width: 64px;
+    height: 64px;
+    top: 293px;
+    left: 43px;
+    border-radius: 4px;
+    background: #80FFD9;
+    margin-bottom: 7px;
+
+}
+
+#TextDe{
+    width: 43px;
+    height: 21px;
+    top: 362px;
+    left: 54px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+    color: #FFFFFFDE;
+}
+
+.University{
+    width: 64px;
+    height: 90px;
+    top: 293px;
+    left: 156px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Chapeu{
+    width: 64px;
+    height: 64px;
+    top: 293px;
+    left: 156px;
+    border-radius: 4px;
+    background: #809CFF;
+    margin-bottom: 7px;
+}
+
+#TextUn{
+    width: 63px;
+    height: 21px;
+    top: 362px;
+    left: 157px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+    color: #FFFFFFDE;
+}
+
+.Social{
+    width: 64px;
+    height: 90px;
+    top: 293px;
+    left: 269px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Megafone{
+    width: 64px;
+    height: 64px;
+    top: 293px;
+    left: 269px;
+    border-radius: 4px;
+    background: #FF80EB;
+    margin-bottom: 7px;
+}
+
+#TextSo{
+    width: 36px;
+    height: 21px;
+    top: 362px;
+    left: 283px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+    color: #FFFFFFDE;
+}
+
+.Music{
+    width: 64px;
+    height: 90px;
+    top: 399px;
+    left: 43px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Nota{
+    width: 64px;
+    height: 64px;
+    top: 399px;
+    left: 43px;
+    border-radius: 4px;
+    background: #FC80FF;
+    margin-bottom: 7px;
+}
+
+#TextMu{
+    color: #FFFFFFDE;
+    width: 37px;
+    height: 21px;
+    top: 468px;
+    left: 57px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+}
+
+.Health{
+    width: 64px;
+    height: 90px;
+    top: 399px;
+    left: 156px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Coracao{
+    width: 64px;
+    height: 64px;
+    top: 399px;
+    left: 156px;
+    border-radius: 4px;
+    background: #80FFA3;
+    margin-bottom: 7px;
+}
+
+#TextHe{
+    color: #FFFFFFDE;
+    width: 42px;
+    height: 21px;
+    top: 468px;
+    left: 167px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+}
+
+.Movie{
+    width: 64px;
+    height: 90px;
+    top: 399px;
+    left: 269px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Camera{
+    width: 64px;
+    height: 64px;
+    top: 399px;
+    left: 269px;
+    border-radius: 4px;
+    background: #80D1FF;
+    margin-bottom: 7px;
+}
+
+#TextMo{
+    color: #FFFFFFDE;
+    width: 39px;
+    height: 21px;
+    top: 468px;
+    left: 282px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+}
+
+.Home{
+    width: 64px;
+    height: 90px;
+    top: 505px;
+    left: 42px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Casa{
+    width: 64px;
+    height: 64px;
+    top: 505px;
+    left: 42px;
+    border-radius: 4px;
+    background: #FFCC80;
+    margin-bottom: 7px;
+}
+
+#TextHo{
+    color: #FFFFFFDE;
+    width: 38px;
+    height: 21px;
+    top: 574px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+}
+
+.Create-New{
+    width: 74px;
+    height: 90px;
+    top: 505px;
+    left: 151px;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.Mais{
+    width: 64px;
+    height: 64px;
+    top: 505px;
+    left: 156px;
+    border-radius: 4px;
+    background: #80FFD1; 
+    margin-bottom: 7px;
+}
+
+#TextCN{
+    color: #FFFFFFDE;
+    width: 74px;
+    height: 21px;
+    top: 574px;
+    left: 151px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21.07px;
+}
